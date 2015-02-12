@@ -42,7 +42,7 @@
 		   		echo "</br>";
 		   		echo"Estudiante: ".$rowE['nombre'];
 		   		echo "</br>";
-
+				$total=0;
 			  while ($row = mysqli_fetch_array($resultadoUnion)) {  
 			  	$valorNota=$row['valor']*$row['porcentaje'];
 
